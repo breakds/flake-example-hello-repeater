@@ -19,5 +19,8 @@
           cmake
         ];
       };
+
+    # Specify the default package
+    defaultPackage.x86_64-linux = self.packages.x86_64-linux.hello-repeater;
   };
 }
